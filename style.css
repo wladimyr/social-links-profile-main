@@ -39,10 +39,11 @@
     text-align: center;
   }
 
-  h4 {
+  p#locate {
     color: hsl(75, 94%, 57%);
     margin: 5px;
     text-align: center;
+    font-weight: bolder;
   }
 
   p {
@@ -74,13 +75,13 @@
     transition: 0.3s;
   }
 
-  .attribution {
+  footer {
     font-size: 11px;
     text-align: center;
     color: white;
   }
 
-  .attribution a { 
+  footer > a { 
     color: hsl(228, 45%, 44%); 
     font-size: 11px;
   }
